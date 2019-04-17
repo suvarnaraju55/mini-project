@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffdb4d;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ff6600;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>ACCOUNT</h1>
+</div>
+<div class="topnav">
+  <a href="last10.php">Last10Transactions</a>
+  <a href="detailed.php">Detailed Statement</a>
+</div>
+<div class="card">
+      <h2 style="color:orange">Last10Transactions</h2>
+      <p>Check the last 10 transactions done by you from your account.</p>
+      </hr>
+      <h2 style="color:orange">Detailed Statement</h2>
+      <p>Get the transaction statement of a month or week.</p>
+     </hr>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffdb4d;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ff6600;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>DISCOVER</h1>
+</div>
+<div class="topnav">
+  <a href="spending.php">Spending Overview</a>
+  <a href="timelinetxn.php">Transaction Timeline</a>
+</div>
+<div class="card">
+      <h2 style="color:orange">Spending Overview</h2>
+      <p>See the total expenditure of the month.</p>
+      </hr>
+      <h2 style="color:orange">Transaction Timeline</h2>
+      <p>Check all the transactions done from your account.</p>
+</div>
+</body>
+</html>

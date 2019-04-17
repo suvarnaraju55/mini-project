@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffdb4d;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ff6600;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>SHOP</h1>
+</div>
+<div class="topnav">
+  <a href="ticket.html">Ticket Booking</a>
+  <a href="Hotels.html" traget="_blank">Hotel</a>
+  <a href="food.html">Food</a>
+</div>
+<div class="card">
+      <h2 style="color:orange">Ticket Booking</h2>
+      <p>Book various tickets from your account which include bus,train.</p>
+      </hr>
+      <h2 style="color:orange">Hotel</h2>
+      <p>Book the hotel room you desire from your account.</p>
+ <h2 style="color:orange">Food</h2>
+      <p>Order food from the restaurant you wish to order from from your account.</p>
+     </hr>
+</div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+﻿<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffdb4d;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ff6600;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Enhanced Banking Application</h1>
+  <p style="color:blue">Experience the all new banking application</p>
+</div>
+
+<div class="topnav">
+  <a href="account.html" traget="_blank">Account</a>
+  <a href="Home.html" traget="_blank">Home</a>
+  <a href="shop.html" traget="_blank">Shop</a>
+  <a href="discover.html" traget="_blank">Discover</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color:orange"> INTERNET BANKING</h2>
+      <h5 style="color:orange"><i>Log into the Enhanced Banking Application</i></h5>
+      <p>
+Internet Banking is a convenient way to do banking from the comfort of your home or office. Avoid the queue or delays and try our simple and secure Internet Banking facility for an unmatched online banking experience.</p>
+      
+    </div>
+    <div class="card">
+      <h2 style="color:orange">Banking at your fingertips</h2>
+      <p>Internet Banking offers you the ease and convenience of transacting in an environment you feel most comfortable with. You can check balances and transactions, transfer funds, pay bills, open fixed and recurring deposits and much more.</p>
+      </hr>
+      <h2 style="color:orange">Bill payments anytime,anywhere</h2>
+      <p> With Internet Banking you can pay bills without having to wait in queues. Choose any bill payment option, manage billers and even choose quick pay. Now set your bill pay reminders and never forget to pay on time!</p>
+     </hr>
+     <h2 style="color:orange">Safe & Secure</h2>
+      <p> Industry-accepted security practices along with a multi-level authentication system has been put in place to authenticate your identity when you access your Internet Banking account. </p>
+    </hr>
+</div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
